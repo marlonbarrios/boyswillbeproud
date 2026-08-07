@@ -76,15 +76,13 @@ unfurled.
 
 ## Local Development
 
-1. Place your performance video in the project root as `all.mov` (not included in the repo — file exceeds GitHub size limits).
-
-2. Serve the folder with a local web server (required for video and audio — do not open as `file://`):
+1. Serve the folder with a local web server (required for video and audio — do not open as `file://`):
 
    ```bash
    python -m http.server 8000
    ```
 
-3. Open `http://localhost:8000` in a browser.
+2. Open `http://localhost:8000` in a browser.
 
 ## Technical Details
 
